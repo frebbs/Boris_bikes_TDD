@@ -4,6 +4,11 @@ require_relative '../lib/docking_station'
 
 describe DockingStation do
 
+  it 'changes the capacity to 100' do
+    ds = DockingStation.new(100)
+    expect(ds.capacity).to_not eq(DockingStation::DEFAULT_CAPACITY)
+  end
+
   describe '#release_bike' do
     it 'releases a bike' do
       bike = Bike.new
@@ -11,7 +16,6 @@ describe DockingStation do
     end
 
     it 'raises an error if no stock' do
-      #subject.dock_bike(Bike.new)
       expect{subject.release_bike}.to raise_error 'No stock'
     end
   end
