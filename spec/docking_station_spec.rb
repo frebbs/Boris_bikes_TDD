@@ -15,8 +15,16 @@ describe DockingStation do
       expect(subject).to respond_to(:release_bike)
     end
 
-    it 'raises an error if no stock' do
-      expect{subject.release_bike}.to raise_error 'No stock'
+    #it 'raises an error if no stock' do
+    #  expect{subject.release_bike}.to raise_error 'No stock'
+    #end
+
+    it 'reject release if bike is broken' do
+      bike = Bike.new
+      broken_bike = Bike.new(true)
+      subject.dock_bike(bike)
+      subject.dock_bike(broken_bike)
+      expect{subject.release_bike(broken_bike)}.to raise_error 'This bike is broken'
     end
   end
 

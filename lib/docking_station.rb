@@ -11,14 +11,23 @@ class DockingStation
     @capacity = capacity
   end
 
-  def release_bike
-    raise 'No stock' unless  stock
-    @bike
+  def release_bike(bike)
+    if !stock
+      raise 'no stock'
+    elsif @broken_bikes.include? bike
+      raise 'This bike is broken'
+    else
+      @docked_bikes.pop
+    end
   end
 
   def dock_bike(bike)
     raise 'Docking station full' if full?
-    @docked_bikes.push(bike)
+    if !bike.working?
+      @broken_bikes.push(bike)
+    else
+      @docked_bikes.push(bike)
+    end
   end
 
   private
@@ -29,4 +38,6 @@ class DockingStation
   def full?
     @docked_bikes.count >= @capacity ? true : false
   end
+
+
 end
