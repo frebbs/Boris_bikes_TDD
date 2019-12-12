@@ -1,9 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41e45ee5-63a1-4b2c-84a6-1e63498eccc7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bike.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/docking_station.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/docking_station_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/boris_bikes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/boris_bikes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bike_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/docking_station_spec.rb" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/spec/docking_station_spec.rb" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/lib/docking_station.rb" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1UtfsBDHlMov2nIGQgtyiR61Sv3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41e45ee5-63a1-4b2c-84a6-1e63498eccc7" name="Default Changelist" comment="" />
+      <created>1576181016163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576181016163</updated>
+      <workItem from="1576181017292" duration="2942000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="518" y="636" width="800" height="675" key="#Inspections" timestamp="1576183335936">
+      <screen x="35" y="267" width="2525" height="1413" />
+    </state>
+    <state x="518" y="636" width="800" height="675" key="#Inspections/35.267.2525.1413/3640.420.1920.1080/2560.0.1080.1920@35.267.2525.1413" timestamp="1576183335936" />
+    <state x="412" y="609" key="SettingsEditor" timestamp="1576183320489">
+      <screen x="35" y="267" width="2525" height="1413" />
+    </state>
+    <state x="412" y="609" key="SettingsEditor/35.267.2525.1413/3640.420.1920.1080/2560.0.1080.1920@35.267.2525.1413" timestamp="1576183320489" />
   </component>
 </project>
