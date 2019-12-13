@@ -12,6 +12,11 @@ describe Bike do
       bike = Bike.new(true)
       expect(bike).to_not be_working
     end
+    it 'lets the user report the bike as broken' do
+      bike = Bike.new
+      bike.report_broken(true)
+      expect(bike.needs_repair).to be(true)
+    end
   end
 end
 

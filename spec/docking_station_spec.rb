@@ -3,6 +3,7 @@ require 'rspec'
 require_relative '../lib/docking_station'
 
 describe DockingStation do
+  #let(:bike) {double :Bike, :working? => true, :needs_repair => false}
 
   it 'changes the capacity to 100' do
     ds = DockingStation.new(100)
@@ -10,14 +11,14 @@ describe DockingStation do
   end
 
   describe '#release_bike' do
+
     it 'releases a bike' do
-      bike = Bike.new
       expect(subject).to respond_to(:release_bike)
     end
 
-    #it 'raises an error if no stock' do
-    #  expect{subject.release_bike}.to raise_error 'No stock'
-    #end
+    it 'raises an error if no stock' do
+      expect{subject.release_bike}.to raise_error 'No stock'
+    end
 
     it 'reject release if bike is broken' do
       bike = Bike.new

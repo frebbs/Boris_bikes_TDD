@@ -8,6 +8,10 @@ class Bike
     !@needs_repair
   end
 
+  def report_broken(broken)
+    @needs_repair = broken
+  end
+
   def broken?(repair = false)
     repair ? true : false
   end
